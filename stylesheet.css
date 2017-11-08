@@ -1,0 +1,56 @@
+/* style all elements in the <body> */
+body {
+    background-image: url(https://media.timeout.com/images/103931066/630/472/image.jpg);
+    font-family: sans-serif;
+    background-repeat: repeat;
+    text-align: center;
+    color: white;
+    vertical-align: top;
+}
+
+
+/* style all the buttons in a page */
+#month {
+    width: 100px;
+    color: white;
+    vertical-align: middle;
+}
+
+/* style the element with the id “myId” */
+#finalMessage {
+    color: lightblue;
+    font-size: 40px;
+    margin-top: 350px;
+
+
+}
+#birthdayMessage{
+    position: relative;
+    color: red;
+    font-size: 90px;
+    margin-top: -150px;
+
+}
+
+#image {
+    position:relative;
+    top: -400px;
+    left: 0px;
+}
+/*style all elements with the class “fontLarge” */
+.fontLarge{
+    font-size: 25px;
+}
+
+/* style all p elements with the class “center” */
+p.center {
+    text-align: center;
+    color: red;
+}
+
+/* style all h1, h2 and p elements */
+h1, h2, p {
+    text-align: right;
+    text-weight: bold;
+}
+
