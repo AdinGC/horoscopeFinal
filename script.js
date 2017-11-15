@@ -97,7 +97,7 @@ function finalMessage (name, printSign, message){
 
 //assigns image
 function getImage (signNum){
-    var imageIndex=["aries.jpg","taurus.jpg","gemini.jpg", "cancer.jpg", "leo.jpg", "virgo.jpg", "libra.jpg","scorpio.jpg", "saggittarius.jpg", "capricorn.jpg", "aquarius.jpg", "pisces.jpg"];
+    var imageIndex=["img/aries.jpg","img/taurus.jpg","img/gemini.jpg", "img/cancer.jpg", "img/leo.jpg", "img/virgo.jpg", "img/libra.jpg","img/scorpio.jpg", "img/saggittarius.jpg", "img/capricorn.jpg", "img/aquarius.jpg", "img/pisces.jpg"];
     console.log(imageIndex[signNum]);
     return imageIndex[signNum];
 
