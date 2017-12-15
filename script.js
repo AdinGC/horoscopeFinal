@@ -86,6 +86,7 @@ function sign (signNum){
 
 //assigns message for sign
 function getMessage (signNum){
+
     var messageIndex=["You will succeed in computer programing.", "You will die alone.", "There is someone standing right behind you.", "You will not get a 4.0 in highschool.", "Your shirt doesn't match your pants.", "You would be well advised to avoid boats this year.", "Your best friend is trying to kill you.", "You have trouble not procrastinating. Try locking yourself in a room with no windows until your work is done.", "You should make sure to eat pasta this winter.", "Make sure to look out for pumpkins falling from tall buildings.","You will live a long and happy life but always have that little itch on the roof ouf your mouth that you can't scratch.", "You would be well advised not to beleive in horoscopes." ]
     return messageIndex[signNum];
 }
